@@ -13,3 +13,11 @@ When Windows Powershell is the scripting language, directly running `pip install
 ```python
 python -m pip install requests
 ```
+
+# IMPORTANT NOTE ON `venv`
+
+After launching vscode, always do the following to make sure proper `venv` is used - even when you open a terminal window: 
+
+1. Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS).
+1. Search for "Python: Select Interpreter".
+1. Select the Python interpreter associated with your virtual environment (e.g., path/to/venv/bin/python or venv\Scripts\python.exe).
